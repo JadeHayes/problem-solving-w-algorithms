@@ -54,7 +54,7 @@ def binary_search(val):
             minimum = guess
             guess = (maximum + minimum) / 2
     if counter > 8:
-        return "False inoformation provided"
+        return "False information provided"
     else:
         return "Test was honest"
 
